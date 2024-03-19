@@ -1,0 +1,181 @@
+
+
+header {
+background-color: rgb(59, 53, 53);
+}
+
+
+header {
+    width: 100%;
+    z-index: 99;
+}
+header ul {
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 991px) {
+    header.header-1 {
+        padding: 15px 0px;
+   }
+}
+header.header-1 .logo a {
+    display: block;
+}
+header.header-1 a {
+    text-transform: capitalize;
+}
+header.header-1 .main-menu ul {
+    line-height: 1;
+}
+header.header-1 .main-menu ul > li {
+    display: inline-block;
+    line-height: 1;
+}
+header.header-1 .main-menu ul > li li.menu-item-has-children > a:after {
+    content: "\f105";
+    position: absolute;
+    right: 15px;
+}
+header.header-1 .main-menu ul > li > a {
+    display: inline-block;
+    text-transform: capitalize;
+    color: #fff;
+   /* Updated color value */
+    line-height: 1;
+    padding: 38px 20px;
+    overflow: hidden;
+    text-align: left;
+    position: relative;
+}
+header.header-1 .main-menu ul > li > a span {
+    margin-left: 3px;
+    font-size: 14px;
+}
+@media (max-width: 1199px) {
+    header.header-1 .main-menu ul > li > a {
+        padding: 25px 15px;
+   }
+}
+header.header-1 .main-menu ul > li:hover > a {
+    color: #ffd44b;
+}
+header.header-1 .main-menu ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+header.header-1 .main-menu ul > li:hover > ul li:hover a {
+    color: #fff;
+   /* Updated color value */
+}
+header.header-1 .main-menu ul > li:hover > ul li:hover ul a:hover {
+    color: #fff;
+   /* Updated color value */
+}
+header.header-1 .main-menu ul > li > ul {
+    position: absolute;
+    top: 100%;
+    width: 200px;
+    background-color: #ffd44b;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.15);
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.5s ease-in-out;
+    padding: 10px 0px;
+    border-radius: 3px;
+}
+header.header-1 .main-menu ul > li > ul li {
+    display: block;
+}
+header.header-1 .main-menu ul > li > ul li a {
+    display: block;
+    color: #080f1e;
+   /* Updated color value */
+    padding: 10px 24px;
+    line-height: 1.5;
+}
+header.header-1 .main-menu ul > li > ul li a:hover {
+    color: #1a1aff;
+   /* Updated color value */
+}
+header.header-1 .main-menu ul > li > ul ul {
+    left: 100%;
+    top: 0;
+}
+header.header-1.style-2 #hamburger {
+    color: #242424;
+   /* Updated color value */
+}
+header.header-1.style-2 .main-menu ul > li > a {
+    color: #242424;
+   /* Updated color value */
+}
+header.header-1.style-2 .main-menu ul > li:hover > a {
+    color: #1a1aff;
+   /* Updated color value */
+}
+header.header-1.style-2 .main-menu ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+header.header-1.style-2 .main-menu ul > li:hover > ul li:hover a {
+    color: #1a1aff;
+   /* Updated color value */
+}
+header.header-1.style-2 .main-menu ul > li:hover > ul li:hover ul a:hover {
+    color: #fff;
+   /* Updated color value */
+}
+header.header-1.style-2 .main-menu ul > li > ul {
+    background-color: #ffd44b;
+}
+header.header-1.style-2 .main-menu ul > li > ul li a {
+    color: #080f1e;
+   /* Updated color value */
+}
+header.header-1.style-2 .main-menu ul > li > ul li a:hover {
+    color: #1a1aff;
+   /* Updated color value */
+}
+header.header-1 .theme-btn {
+    padding: 14px 22px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 40px;
+    background-color: #f54748;
+    border-color: #f54748;
+}
+@media (max-width: 1400px) {
+    header.header-1 .theme-btn {
+        font-size: 14px;
+        padding: 12px 18px;
+        margin-left: 30px;
+   }
+}
+header.header-1 .theme-btn:hover {
+    color: #1a1aff !important;
+    background: #fff !important;
+    border-color: #fff !important;
+}
+header.header-1 .theme-btn.bg-color {
+    color: #fff !important;
+    background: #1a1aff !important;
+    border-color: #1a1aff !important;
+}
+header.header-1 .theme-btn.bg-color:hover {
+    color: #fff !important;
+    background-color: #f54748 !important;
+    border-color: #f54748 !important;
+}
+header.header-1 .header-right-element .color-2 {
+    color: #242424;
+   /* Updated color value */
+}
+header.header-1 .header-right-element .color-2:hover {
+    color: #1a1aff;
+   /* Updated color value */
+}
